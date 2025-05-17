@@ -17,5 +17,9 @@
         "path": "./themes/Purple Orange-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhonattan-santos/purple-orange.git"
   }
 }
