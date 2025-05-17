@@ -1,7 +1,5 @@
 # Purple Orange
 
-![Purple Orange Theme Icon](icon.png)
-
 A **purple orange** theme to chill your eyes while coding in Visual Studio Code.
 
 ## Features
