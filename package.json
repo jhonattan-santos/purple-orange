@@ -7,6 +7,8 @@
   "engines": {
     "vscode": "^1.100.0"
   },
+  "icon": "icon.png",
+  "license": "MIT",
   "categories": [
     "Themes"
   ],
