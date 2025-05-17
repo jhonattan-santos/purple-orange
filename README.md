@@ -27,10 +27,6 @@ code --install-extension Jhonattan-Santos.purple-orange
 1. Press `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T` on Mac) to open the theme picker.
 2. Select **Purple Orange** from the list.
 
-## Screenshots
-
-_Add your screenshots here!_
-
 ## Contributing
 
 Feel free to open issues or pull requests to improve the theme.
