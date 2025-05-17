@@ -2,6 +2,10 @@
 
 A **purple orange** theme to chill your eyes while coding in Visual Studio Code.
 
+![](image.png)
+
+![](image-1.png)
+
 ## Features
 
 - Modern dark theme with purple and orange highlights
