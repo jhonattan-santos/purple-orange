@@ -1,16 +1,40 @@
-# purple-orange README
+# Purple Orange
 
-## Working with Markdown
+![Purple Orange Theme Icon](icon.png)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+A **purple orange** theme to chill your eyes while coding in Visual Studio Code.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Features
 
-## For more information
+- Modern dark theme with purple and orange highlights
+- Designed for comfortable, long coding sessions
+- Supports syntax highlighting for most languages
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Installation
 
-**Enjoy!**
+1. Open **Extensions** in VS Code (`Ctrl+Shift+X` or `Cmd+Shift+X` on Mac).
+2. Search for **Purple Orange**.
+3. Click **Install**.
+
+Or install via command line:
+
+```sh
+code --install-extension Jhonattan-Santos.purple-orange
+```
+
+## Usage
+
+1. Press `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T` on Mac) to open the theme picker.
+2. Select **Purple Orange** from the list.
+
+## Screenshots
+
+_Add your screenshots here!_
+
+## Contributing
+
+Feel free to open issues or pull requests to improve the theme.
+
+## License
+
+This theme is released under the [MIT License](LICENSE.md).
