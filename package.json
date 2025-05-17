@@ -1,0 +1,21 @@
+{
+  "name": "purple-orange",
+  "displayName": "Purple Orange",
+  "description": "A purple orange theme to chilling your eyes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple Orange",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Purple Orange-color-theme.json"
+      }
+    ]
+  }
+}
