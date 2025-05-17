@@ -3,7 +3,7 @@
   "displayName": "Purple Orange",
   "publisher": "Jhonattan-Santos",
   "description": "A purple orange theme to chilling your eyes",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.100.0"
   },
