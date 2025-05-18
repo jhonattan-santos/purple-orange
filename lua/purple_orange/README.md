@@ -1,53 +1,97 @@
 # Purple Orange Neovim Theme (Lush)
 
-This theme is a port of Purple Orange (VS Code) for Neovim, built with [lush.nvim](https://github.com/rktjmp/lush.nvim).
+Welcome! This is a port of the Purple Orange (VS Code) theme for Neovim, built with [lush.nvim](https://github.com/rktjmp/lush.nvim).
 
-## Installation
+---
 
-1. **Install [lush.nvim](https://github.com/rktjmp/lush.nvim):**
+## 🚀 Step-by-step Installation for Beginners
 
-   - Using [lazy.nvim](https://github.com/folke/lazy.nvim):
-     ```lua
-     {
-       "rktjmp/lush.nvim"
-     }
-     ```
-   - Or with [packer.nvim](https://github.com/wbthomason/packer.nvim):
-     ```lua
-     use "rktjmp/lush.nvim"
-     ```
+### 1. Install a Plugin Manager (if you don't have one)
 
-2. **Clone this repository:**
+If you're new to Neovim, you need a plugin manager to install themes and plugins. The easiest for beginners is **paq-nvim**.
 
-   ```sh
-   git clone https://github.com/jhonattan-santos/purple-orange.git
-   cd purple-orange/lua/purple_orange
-   ```
+Open your terminal and run:
 
-3. **Automatic install (recommended):**
+```sh
+git clone https://github.com/savq/paq-nvim.git ~/.local/share/nvim/site/pack/paqs/start/paq-nvim
+```
 
-   Run the install script to copy the theme and set up the colorscheme loader:
+### 2. Add lush.nvim to your plugins
 
-   ```sh
-   bash install.sh
-   ```
+Open (or create) the file `~/.config/nvim/init.lua` and add:
 
-4. **Manual install (if you want to customize):**
+```lua
+require "paq" {
+  "savq/paq-nvim",      -- Paq itself
+  "rktjmp/lush.nvim",   -- Lush for themes
+  -- You can add more plugins here!
+}
+```
 
-   - Place the `theme.lua` file in `~/.config/nvim/lua/purple_orange/theme.lua` or your preferred folder.
-   - Create a file at `~/.config/nvim/colors/purple_orange.lua` with:
-     ```lua
-     require("lush")(require("purple_orange.theme"))
-     ```
+Now, open Neovim and run:
 
-5. **Activate the theme in Neovim:**
-   ```vim
-   :colorscheme purple_orange
-   ```
-   Or add to your `init.lua`:
-   ```lua
-   vim.cmd.colorscheme("purple_orange")
-   ```
+```
+:PaqInstall
+```
+
+This will install lush.nvim for you!
+
+---
+
+### 3. Clone this theme
+
+Back in your terminal:
+
+```sh
+git clone https://github.com/jhonattan-santos/purple-orange.git
+cd purple-orange/lua/purple_orange
+```
+
+---
+
+### 4. Automatic install (recommended!)
+
+Just run:
+
+```sh
+bash install.sh
+```
+
+This will copy the theme to your Neovim config and set everything up for you.
+
+---
+
+### 5. Manual install (if you want to customize)
+
+- Copy `theme.lua` to `~/.config/nvim/lua/purple_orange/theme.lua` (create folders if needed).
+- Create a file at `~/.config/nvim/colors/purple_orange.lua` with this content:
+  ```lua
+  require("lush")(require("purple_orange.theme"))
+  ```
+
+---
+
+### 6. Activate the theme in Neovim
+
+Open Neovim and run:
+
+```
+:colorscheme purple_orange
+```
+
+Or add this to your `init.lua` to always start with the theme:
+
+```lua
+vim.cmd.colorscheme("purple_orange")
+```
+
+---
+
+## 🎉 That's it!
+
+Enjoy your new chill Purple Orange theme! If you have any questions, feel free to open an issue or ask for help.
+
+---
 
 ## About
 
