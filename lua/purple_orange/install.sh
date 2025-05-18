@@ -24,7 +24,8 @@ else
 fi
 
 # 4. Print instructions to activate the theme
-echo "\n[Purple Orange] Installation complete!"
+echo ""
+echo "[Purple Orange] Installation complete!"
 echo "To activate, open Neovim and run:"
 echo ":colorscheme purple_orange"
 echo "Or add to your init.lua:"
