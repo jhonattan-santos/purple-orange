@@ -52,10 +52,10 @@ local palette = {
   pmenu_border = hsl("#1F2A23"),
   linenr    = hsl("#496250"),
   linenr_active = hsl("#ffb300"),
-  diff_add  = hsl("#56A7FB40"),
-  diff_change = hsl("#56A7FB20"),
-  diff_delete = hsl("#FF626840"),
-  diff_text = hsl("#945AFF70"),
+  diff_add  = hsl("#56A7FB"),
+  diff_change = hsl("#56A7FB"),
+  diff_delete = hsl("#FF6268"),
+  diff_text = hsl("#945AFF"),
 }
 
 local theme = lush(function()
