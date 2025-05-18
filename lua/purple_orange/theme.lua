@@ -137,6 +137,8 @@ local theme = lush(function()
     ["@punctuation.bracket"]   = { fg = hsl("#D399FF") },
     ["@punctuation.special"]   = { fg = hsl("#D399FF") },
     ["@property"] = { fg = hsl("#EDAFF8") },
+    ["@keyword.import"] = { fg = hsl("#C698F0") },
+    ["@include"]        = { fg = hsl("#C698F0") },
     -- UI Elements
     Title         { fg = palette.fg, bg = palette.bg, gui = "bold" },
     Directory     { fg = palette.purple },

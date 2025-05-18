@@ -87,6 +87,26 @@ vim.cmd.colorscheme("purple_orange")
 
 ---
 
+### Extra: For best colors in imports and punctuation
+
+To get the most vibrant colors for imports and punctuation (like `=`, `:`, `;`, `?`, and `import ... from ...`), this theme defines special highlight groups for punctuation and import keywords. For best results:
+
+- Make sure you have [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) installed and highlighting enabled in your `init.lua`:
+
+  ```lua
+  require'nvim-treesitter.configs'.setup {
+    highlight = { enable = true }
+  }
+  ```
+
+- The theme already includes:
+  - `@punctuation`, `@punctuation.delimiter`, `@punctuation.bracket`, `@punctuation.special` (for symbols)
+  - `@keyword.import` and `@include` (for import statements)
+
+If you want to tweak the colors, edit the `theme.lua` file and adjust these highlight groups as you wish!
+
+---
+
 ## 🎉 That's it!
 
 Enjoy your new chill Purple Orange theme! If you have any questions, feel free to open an issue or ask for help.
