@@ -87,6 +87,43 @@ vim.cmd.colorscheme("purple_orange")
 
 ---
 
+### Extra: Install nvim-treesitter with paq-nvim
+
+To get the best syntax highlighting (especially for punctuation and imports), it's highly recommended to use [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
+
+If you use **paq-nvim**, add this to your plugins in `~/.config/nvim/init.lua`:
+
+```lua
+require "paq" {
+  "savq/paq-nvim",      -- Paq itself
+  "rktjmp/lush.nvim",   -- Lush for themes
+  "nvim-treesitter/nvim-treesitter", -- Treesitter for better highlighting
+  -- You can add more plugins here!
+}
+```
+
+Then, in Neovim, run:
+
+```
+:PaqInstall
+```
+
+And add this to your `init.lua` to enable highlighting:
+
+```lua
+require'nvim-treesitter.configs'.setup {
+  highlight = { enable = true }
+}
+```
+
+You can install language parsers with:
+
+```
+:TSInstall javascript typescript lua html css json
+```
+
+---
+
 ### Extra: For best colors in imports and punctuation
 
 To get the most vibrant colors for imports and punctuation (like `=`, `:`, `;`, `?`, and `import ... from ...`), this theme defines special highlight groups for punctuation and import keywords. For best results:
