@@ -91,7 +91,9 @@ local theme = lush(function()
     Conditional  { fg = hsl("#A077FF") },
     Repeat       { fg = hsl("#DD8FFF") },
     Label        { fg = palette.purple },
-    Operator     { fg = hsl("#00ff51") },
+    Operator     { fg = hsl("#00ff51") },      -- para =, +, -, *, /, etc.
+    Punctuation   { fg = hsl("#D399FF") },      -- para ; , . : ? etc.
+    Delimiter     { fg = hsl("#D399FF") },      -- para {}, [], ()
     Keyword      { fg = hsl("#A077FF") },
     Exception    { fg = palette.error },
     PreProc      { fg = palette.purple },
@@ -129,7 +131,11 @@ local theme = lush(function()
     ["@constant"] = { fg = hsl("#00ff4d") },
     ["@number"]   = { fg = hsl("#00ff4d") },
     ["@boolean"]  = { fg = hsl("#00ff4d") },
-    ["@operator"] = { fg = hsl("#00ff51") },
+    ["@operator"]   = { fg = hsl("#00ff51") },
+    ["@punctuation"] = { fg = hsl("#D399FF") },
+    ["@punctuation.delimiter"] = { fg = hsl("#D399FF") },
+    ["@punctuation.bracket"]   = { fg = hsl("#D399FF") },
+    ["@punctuation.special"]   = { fg = hsl("#D399FF") },
     ["@property"] = { fg = hsl("#EDAFF8") },
     -- UI Elements
     Title         { fg = palette.fg, bg = palette.bg, gui = "bold" },
