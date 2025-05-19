@@ -9,6 +9,10 @@
   "categories": [
     "Themes"
   ],
+  "engines": {
+    "vscode": ">=1.0.0",
+    "cursor": ">=0.13.0"
+  },
   "contributes": {
     "themes": [
       {
