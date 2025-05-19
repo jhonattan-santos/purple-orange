@@ -4,9 +4,6 @@
   "publisher": "Jhonattan-Santos",
   "description": "A purple orange theme to chilling your eyes",
   "version": "0.1.5",
-  "engines": {
-    "vscode": "^1.100.0"
-  },
   "icon": "icon.png",
   "license": "MIT",
   "categories": [
